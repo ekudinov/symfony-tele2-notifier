@@ -1,0 +1,19 @@
+{
+    "name": "ekudinov/symfony-tele2-notifier",
+    "version": "1.0.0",
+    "type": "symfony-bridge",
+    "description": "Symfony tele2 Notifier Bridge",
+    "keywords": ["sms", "tele2", "notifier"],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.2.5",
+        "symfony/http-client": "^4.3|^5.0",
+        "symfony/notifier": "^5.3"
+    },
+    "autoload": {
+        "psr-4": { "Axmor\\Symfony\\Component\\Notifier\\Bridge\\Tele2\\": "" },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    }
+}
